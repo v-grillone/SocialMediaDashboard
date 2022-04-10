@@ -1,3 +1,3 @@
 # SocialMediaDashboard
 
-project utilizing css grid for training purposes.
+project utilizing css grid and flex for training purposes.
