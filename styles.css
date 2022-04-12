@@ -172,7 +172,20 @@ body {
     border-radius: 5px;
     border-left: 10px solid rgb(72, 72, 72);
     overflow: hidden;
-    
+    position: relative; 
+}
+
+.content-box img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    position: absolute;
+    transition: all 0.5s ease;   
+}
+
+.content-box:hover img {
+    right: 0%;
 }
 
 .content-sidebar {
